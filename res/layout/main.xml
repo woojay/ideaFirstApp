@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Idead Message!"
+            android:layout_weight="0.16"/>
+    <TextClock
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock" android:layout_weight="0.03" android:layout_gravity="center_horizontal"
+            android:editable="true" android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_weight="0.21" android:src="#f5ff4a"
+            android:layout_gravity="center_horizontal"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check this out!"
+            android:id="@+id/checkBox" android:checked="false"
+            android:textColor="#43ff1a" android:textColorHint="#00ffc6" android:textSize="30dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" android:layout_gravity="center_horizontal" android:layout_weight="0.39"
+            android:autoText="false" android:clickable="true" android:editable="true" android:enabled="true"
+            android:inputType="text"/>
+</LinearLayout>
+
